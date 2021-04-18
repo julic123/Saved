@@ -1,0 +1,5 @@
+<script type="text/javascript">
+$(document).ready(function(e) {
+  $('iframe').attr('src','http://www.flickr.com/');
+});
+</script>
