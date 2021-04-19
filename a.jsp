@@ -4,7 +4,7 @@ import org.apache.commons.io.IOUtils;
  	public void getImage( HttpServletRequest request, HttpServletResponse response) 
                                       throws Exception {
         // TODO Auto-generated method stub
-		response.setContentType("application/jpeg");
+		response.setContentType("https://julic123.github.io/Saved/tutorial_answer.jpg");
 		String url = "./tutorial_answer.jpg";
 		String filename = request.getParameter("filename");  
 	
