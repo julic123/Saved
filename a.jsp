@@ -5,7 +5,7 @@ import org.apache.commons.io.IOUtils;
                                       throws Exception {
         // TODO Auto-generated method stub
 		response.setContentType("application/jpeg");
-		String url = "숨겨야할 이미지의 주소 및 경로";
+		String url = "tutorial_answer.jpg";
 		String filename = request.getParameter("filename");  
 	
 		URL fileUrl = new URL(url+filename);
